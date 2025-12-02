@@ -5,7 +5,7 @@ import datetime
 st.title("🔮Welcome to Astro AI🌟")
 st.subheader("*Your cosmic companion for exploring the universe through the power of Ai...*")
 ##
-genai.configure(api_key="AIzaSyB1hlg9DjNc42QKwyKGbsKQ2b5mHQu4zXE")
+genai.configure(api_key="Api_Key")
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 ###
